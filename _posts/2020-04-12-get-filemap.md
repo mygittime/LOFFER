@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用brew安装mysql并修改初始密码
+title: 生成带注释的项目目录结构
 date: 2020-04-12
 author: 来自中世界
 tags: [python, project]
