@@ -3,7 +3,7 @@ layout: post
 title: 使用brew安装mysql并修改初始密码
 date: 2020-04-12
 author: 来自中世界
-tags: [brew, mysql]
+tags: [python, project]
 comments: true
 toc: true
 pinned: true
