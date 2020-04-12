@@ -25,7 +25,7 @@ pinned: true
 	mysql_secure_installation
 
 期间会要求你设置密码强度，如下图：
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/reset-mysql-password/1.png)
+![img](https://mygittime.github.io/myblog/images/reset-mysql-password/1.jpg)
 根据你设置的密码强度进行设置密码，然后一直回车就可以了
 注意：密码强度最低要求是包含八个字符，所以无法设置成123456这种简单密码，如果要设置为简单密码，请继续第三步
 
@@ -44,7 +44,7 @@ pinned: true
 	show variables like 'validate_password%’;
 
 结果如下图
-![img](https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/reset-mysql-password/1.png)
+![img](https://mygittime.github.io/myblog/images/reset-mysql-password/2.jpg)
 其中policy是当前密码强度等级，length表示密码长度
 
 修改密码长度限制为最少6个字符
@@ -59,7 +59,7 @@ pinned: true
 	
 	alter user 'root'@'localhost' identified by '123456’;
 
-####修改完成
+### 修改完成
 
 
 
