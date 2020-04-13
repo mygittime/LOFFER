@@ -12,7 +12,7 @@ pinned: true
 
 ### 插件地址
 
-[点击下载](https://mygittime.github.io/myblog/_code/filemap.py, '点击下载')
+[点击下载](https://mygittime.github.io/myblog/download/filemap.py, '点击下载')
 
 ### 参数说明
 
