@@ -39,6 +39,7 @@ light.css中代码
         --text-2:#000;
         --text-3:#f00;
     }
+    
 dark.css中代码
 
     :root{
