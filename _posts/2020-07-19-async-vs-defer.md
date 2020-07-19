@@ -10,23 +10,23 @@ comments: true
 
 ### Legend
 
-![legend](https://mygittime.github.io/myblog/images/async-vs-defer/legend.png)
+![legend](https://mygittime.github.io/myblog/images/async-vs-defer/legend.svg)
 
 ### \<script>
 
 **script** 会中断HTML文件解析，直到script文件下载并解析完成
 
-![script](https://mygittime.github.io/myblog/images/async-vs-defer/script.png)
+![script](https://mygittime.github.io/myblog/images/async-vs-defer/script.svg)
 
 ### \<script async>
 
 **async** 在HTML解析期间下载文件，并在完成下载后暂停HTML解析器以执行该文件
 
-![script-async](https://mygittime.github.io/myblog/images/async-vs-defer/script-async.png)
+![script-async](https://mygittime.github.io/myblog/images/async-vs-defer/script-async.svg)
 
 ### \<script defer>
 
 **defer** 在HTML解析期间下载文件，并且仅在解析器完成后执行。defer还保证脚本按照它们在文档中出现的顺序执行（实际上多个defer时不能保证执行顺序）
 
-![script-defer](https://mygittime.github.io/myblog/images/async-vs-defer/script-defer.png)
+![script-defer](https://mygittime.github.io/myblog/images/async-vs-defer/script-defer.svg)
 
