@@ -229,4 +229,4 @@ comments: true
     var person1 = new Person('xiaoming');
     person1.sayName(); //xiaoming
 
-这个函数的name属性不会被任何程序修改，同时只有调用sayName()方法才能访问name属性
+这个函数name的值不会被任何程序修改，同时只有调用sayName()方法才能访问name的值
